@@ -1,0 +1,74 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    margin: 20px;
+    background-image: url(../images/bricks.jpg);
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+img {
+    object-fit: cover;
+    width: 22%;
+    height: 22%;
+    border-radius: 50% 50%;
+}
+
+h1,h2 {
+    text-align: center;
+    font-family: 'Sprite Graffiti', sans-serif;
+    color: white;
+    font-size: 100px;
+    text-decoration: double;
+                                                
+}
+
+nav {
+    font-family: 'Sprite Graffiti', sans-serif;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    
+
+}
+
+figure {
+    margin: 0;
+}
+
+ul, li {
+    margin: 10;
+    padding: 30px;
+    list-style: none;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    margin: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(222, 184, 135, 0.2);
+    
+}
