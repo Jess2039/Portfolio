@@ -20,8 +20,14 @@ html {
     background-image: url(./public/moon_background.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 110% 35%;
-    
+    background-size: 110% 25%;   
+}
+header {
+    height: 10px;
+}
+
+.home-presentation {
+    margin-top: 65px;
 }
 
 /*Desktop*/

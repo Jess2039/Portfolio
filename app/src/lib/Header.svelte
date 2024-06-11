@@ -12,3 +12,17 @@ import {link} from 'svelte-spa-router';
             <li><a href="/contact" use:link>Contact</a></li>
         </ul>
 </header>
+
+<style>
+  
+  header {
+        position: relative;
+    }
+
+@media screen and (min-width: 1024px) {
+  header {
+    margin-top: 15px;
+  }
+}
+
+</style>
