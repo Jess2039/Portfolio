@@ -103,4 +103,9 @@
         margin-top: 10px;
     }
 
+      /* ******* Desktop ******* */
+@media screen and (min-width: 1024px) {
+    
+}
+
 </style>
