@@ -1,0 +1,106 @@
+<main>
+    <div class="home-presentation">
+        <h1>Jessica JAMAIN</h1>
+            <h2>Développeur web - Intégrateur</h2>
+    </div>
+    <div class="main_skills">
+        <section class="skills_section">
+            <ul class="skills_list">
+                <li><img src="/images/htmlcss-logo.svg" alt="HTML/CSS" width="52px">HTML/CSS</li>
+                <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
+                <li><img src="/images/JavaScript-logo.png" alt="Javascript" width="53px">Javascript</li>
+                <li class="rate"><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
+                <li><img src="/images/svelte-bg.png" alt="Svelte" width="55px">Svelte</li>
+                <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
+                <li><img src="/images/mysql-mariadb.png" alt="MariaDB/MySQL" width="45px">MariaDB/MySQL</li>
+                <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
+                <li><img src="/images/PHP-logo.png" alt="PHP" width="45px">PHP</li>
+                <li class="rate"><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
+                <li><img src="/images/Directus_Logo.png" alt="Directus" width="45px">Directus</li>
+                <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
+                <li><img src="/images/github.png" alt="" width="45px">Github</li>
+                <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
+                <li><img src="/images/asana-logo.svg" alt="Asana" width="40px">Asana</li>
+                <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
+                <li><img src="/images/figma-logo.png" alt="Figma" width="50px">Figma</li>
+                <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
+                <li><img src="/images/canva_logo.png" alt="Figma" width="40px">Canva</li>
+                <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
+            </ul>
+        </section>
+        <button class="download_cv">Télécharger CV</button>
+        <section class="rsp_section">
+           <hr width="30%" color="white">
+            <div class="rsp">
+                <a href="https://www.linkedin.com/in/jessica-jamain/" target="blank"><img src="/images/linkedin.png" class="linkedin_logo" alt="linkedin"></a>
+                <a href="https://github.com/Jess2039" target="blank"><img src="/images/github.png" class="github_logo" alt="github"></a>
+            </div>
+            <hr width="30%" color="white">
+        </section>
+    </div> 
+</main>
+
+<style>
+    .main_skills {
+        display: flex;
+        flex-direction: column;
+    }
+     .line_white {
+        border-bottom: solid 2px var(--white);
+        border-right: none;
+    } 
+    .rsp_section {
+        display: flex;
+        align-items: center;
+        margin: 10px 0px;
+    }
+    .rsp {
+        display: flex;
+        flex-direction: row;
+    }
+    .rsp a {
+        margin-right: 20px;
+    }
+    .linkedin_logo {
+        width: 30px;
+    }
+    .github_logo {
+        width: 35px;
+    }
+    li {
+        list-style-type:none;  
+        margin: 15px 25px;
+        font-size: 20px;
+        width: 200px;
+    }
+    li img {
+        margin-right: 20px;
+    }
+    .rate {
+        display: flex;
+        justify-content: space-between;
+    }
+    .blue_circle {
+        border: var(--white) solid 0.1px;
+        background-color: var(--bluemoon);
+        width:15px;
+        height: 15px;
+        border-radius: 25px;
+    }
+    .dark_circle {
+        border: var(--white) solid 0.1px;
+        background-color: var(--black_background);
+        width:15px;
+        height: 15px;
+        border-radius: 25px;  
+    }
+    .download_cv {
+        background-color: var(--bluemoon);
+        border: solid 2px var(--bluemoon);
+        width: 150px;
+        margin-left: 30%;
+        border-radius: 8%;
+        margin-top: 10px;
+    }
+
+</style>
