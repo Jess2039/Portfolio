@@ -6,8 +6,9 @@
     --black_background: #000000;
 }
 
-/*Mobile*/
+     /* ******* Mobile ******* */
 
+/*Main*/
 html { 
     box-sizing: border-box;
     max-width: 100%;
@@ -27,14 +28,83 @@ header {
 }
 
 .home-presentation {
-    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 40px;
+    
+}
+.home-presentation h1 {
+    font-size: 35px;
+}
+.home-presentation h2 {
+    font-size: 20px;
 }
 
-/*Desktop*/
+/* RSP_bar */
+
+.rsp_section {
+    margin-top: 40px;
+}
+.rsp {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 100px;
+}
+.linkedin_logo {
+    width: 45px;
+    margin-top: 25px;
+}
+.github_logo {
+    width: 55px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.border_white {
+    border-right: solid 2px var(--white);
+    width: 28%;
+    height: 170px;
+}
+
+
+        /* ******* Desktop ******* */
 @media screen and (min-width: 1024px) {
 
 
     html {
         background-size: 100% 85%;
+    }
+
+    .home-presentation {
+        margin-top: 250px;
+        margin-left: 450px;
+        
+    }
+    .home-presentation h1 {
+        font-size: 75px;
+    }
+    .home-presentation h2 {
+        font-size: 40px;
+    }
+    .rsp_section {
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+    .linkedin_logo {
+        width: 45px;
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+    .github_logo {
+        width: 55px;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    .border_white {
+        border-right: solid 2px var(--white);
+        width:8%;
+        height: 170px;
     }
 }
