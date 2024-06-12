@@ -63,6 +63,9 @@
     main {
         margin:8% 10%;
     }
+    p {
+        font-size: 20px;
+    }
 }
 
 </style>
