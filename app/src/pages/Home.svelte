@@ -12,3 +12,7 @@
         <div class="border_white"></div>
     </section>
 </main>    
+
+<style>
+    
+</style>

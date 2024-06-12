@@ -47,7 +47,7 @@
                 </div>
             </ul>
         </section>
-        <a href="/CV-Jessica.pdf" target="blank" class="download_cv">Télécharger CV</a>
+        <a href="/CV-Jessica.pdf" target="blank" class="download_cv"><span>Télécharger CV</span></a>
         <section class="rsp_section">
            <hr width="30%" color="white">
             <div class="rsp">
@@ -114,15 +114,62 @@
         border-radius: 25px;  
     }
     .download_cv {
-        background-color: var(--bluemoon);
+     /*    background-color: var(--bluemoon);
         border: solid 2px var(--bluemoon);
         width: 150px;
         margin-left: 30%;
         border-radius: 8%;
         margin-top: 10px;
         text-decoration: none;
+        text-align: center; */
+        height:20px;
+        width:180px;
+        border:none;
+        border-radius:50px;
+        transition:0.3s;
+        background-color:var(--bluemoon);
+        animation: glow 1s infinite ;
+        transition:0.5s;
         text-align: center;
+        padding-bottom: 30px;
+        text-decoration: none;
+        margin-top: 10px;
+        margin-left: 30%;
     }
+    .download_cv:hover {
+        transform:translateX(-20px);
+        border-radius:50px;
+        background-color:var(--white);
+        transition:0.5s;
+    }
+    span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-top: 8%;
+    padding-right: 2.5%;
+    margin-right: 0px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    }
+span:hover{
+    transition: 0.3s;
+    opacity: 1;
+    font-weight: 700;
+    }
+    @keyframes glow{
+  0%{
+  box-shadow: 5px 5px 20px var(--white),-5px -5px 20px var(--white);}
+  
+  50%{
+  box-shadow: 5px 5px 20px var(--white),-5px -5px 20px var(--white)
+  }
+  100%{
+  box-shadow: 5px 5px 20px var(--bluemoon),-5px -5px 20px var(--bluemoon)
+  }
+}
 
       /* ******* Desktop ******* */
 @media screen and (min-width: 1024px) {
