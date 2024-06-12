@@ -47,8 +47,8 @@
               /* ******* Desktop ******* */
 @media screen and (min-width: 1024px) { 
     main {
-        width: 95%;
-        margin: 110px 45px;
+        width: 85%;
+        margin: 110px 7%;
         padding: 20px 30px;
     }
     h1 {
@@ -74,8 +74,14 @@
         margin-left: 20%;
     }
     .blabla_capture {
-        width: 20%;
+        width: 15%;
         margin-left: 10%;
+        margin-top: 25px;
+    }
+    .book_capture {
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 25px;
     }
  }
    
