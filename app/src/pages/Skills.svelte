@@ -47,7 +47,7 @@
                 </div>
             </ul>
         </section>
-        <button class="download_cv">Télécharger CV</button>
+        <a href="/CV-Jessica.pdf" target="blank" class="download_cv">Télécharger CV</a>
         <section class="rsp_section">
            <hr width="30%" color="white">
             <div class="rsp">
@@ -120,6 +120,8 @@
         margin-left: 30%;
         border-radius: 8%;
         margin-top: 10px;
+        text-decoration: none;
+        text-align: center;
     }
 
       /* ******* Desktop ******* */
@@ -165,6 +167,8 @@
     }
     .download_cv {
         margin-left: 50%;
+        height: 20px;
+        padding-top: 5px;
     }
     .linkedin_logo {
         width: 35px;
