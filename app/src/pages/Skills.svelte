@@ -71,7 +71,7 @@
     .rsp_section {
         display: flex;
         align-items: center;
-        margin: 10px 0px;
+        margin: 20px 0px;
     }
     .rsp {
         display: flex;
@@ -114,14 +114,7 @@
         border-radius: 25px;  
     }
     .download_cv {
-     /*    background-color: var(--bluemoon);
-        border: solid 2px var(--bluemoon);
-        width: 150px;
-        margin-left: 30%;
-        border-radius: 8%;
-        margin-top: 10px;
-        text-decoration: none;
-        text-align: center; */
+     
         height:20px;
         width:180px;
         border:none;
@@ -133,7 +126,7 @@
         text-align: center;
         padding-bottom: 30px;
         text-decoration: none;
-        margin-top: 10px;
+        margin-top: 30px;
         margin-left: 30%;
     }
     .download_cv:hover {

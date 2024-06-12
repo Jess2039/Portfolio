@@ -5,6 +5,7 @@
     import Skills from "./pages/Skills.svelte";
     import Portfolio from "./pages/Portfolio.svelte";
     import Contact from "./pages/Contact.svelte";
+    import Project from "./pages/Project.svelte";
     import Footer from "./lib/Footer.svelte";
 
     // configuration des routes
@@ -12,7 +13,8 @@
         '/': Home,
         '/skills': Skills,
         '/contact': Contact,
-        '/portfolio': Portfolio
+        '/portfolio': Portfolio,
+        '/project/:id': Project
     };
 
 </script>

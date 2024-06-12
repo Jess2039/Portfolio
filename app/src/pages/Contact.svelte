@@ -21,7 +21,10 @@
 </main>  
 <style>
      .rsp {
-        margin-left: 50px;
+        margin-left: 30%;
+    }
+    .border_white {
+        margin-left: 20%;
     }
     .contact_section {
         display: flex;
@@ -95,7 +98,7 @@ span:hover{
         margin-left: 80%;
     }
     .rsp {
-        margin-left: 0px;
+        margin-left: 25%;
     }
     .border_white {
         margin-left: 60px;
