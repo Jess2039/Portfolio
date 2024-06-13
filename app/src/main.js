@@ -1,4 +1,6 @@
-import './app.css'
+import './css/normalize.css'
+import './css/main.css'
+import './css/header.css'
 import App from './App.svelte'
 
 const app = new App({
