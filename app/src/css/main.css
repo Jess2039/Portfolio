@@ -18,7 +18,7 @@ html {
     font-family: "lexend";
     color: var(--white);
     background-color: var(--black_background);
-    background-image: url(./moon_background.jpg);
+    background-image: url(./images/moon_background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 110% 25%;   
