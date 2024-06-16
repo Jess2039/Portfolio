@@ -2,9 +2,9 @@
 <h1>Projet Blablabook</h1>
 <div class="stack_div">
     <h3>Full-Stack</h3>
-    <img src="/images/htmlcss-logo.svg" alt="html/css" width="100">
-    <img src="/images/svelte-bg.png" alt="svelte" width="100">
-    <img src="/images/Directus_Logo.png" alt="Directus" width="100">
+    <img src="./images/htmlcss-logo.svg" alt="html/css" width="100">
+    <img src="./images/svelte-bg.png" alt="svelte" width="100">
+    <img src="./images/Directus_Logo.png" alt="Directus" width="100">
 </div>
 <p>Projet de fin d'études, Blablabook est une plateforme en ligne destinée à aider les amateurs de lecture à gérer leur bibliothèque personnelle en enregistrant les livres qu'ils ont lus, en attribuant des notes et en laissant des avis. L'objectif principal du site est de permettre aux utilisateurs de suivre leurs lectures, de découvrir de nouveaux livres et de partager leurs opinions avec d'autres lecteurs.
    Développé en utilisant des technologies telles que Svelte, Directus, SQLLite et Figma.<br> Le projet a été conçu pour permettre aux utilisateurs de créer leur compte, se connecter à leur espace personnel, gérer sa propre bibliothèque en ajoutant des livres sur les différentes étagères, de laisser un avis sur les livres.
@@ -12,11 +12,11 @@
    L'utilisation de Svelte a permis de créer une interface utilisateur fonctionnelle. Le backend a pu être géré via Directus.
 </p>
 <section class="images_section">
-<img src="/images/Home_blablabook.png" class="blabla_capture_home" alt="blablabook" width="90%">
+<img src="./images/Home_blablabook.png" class="blabla_capture_home" alt="blablabook" width="90%">
 <div class="images_minwidth">
-<img src="/images/Mobile_menu.png" class="blabla_capture" alt="blablabook" width="40%">
-<img src="/images/Mobile-discovery.png" class="blabla_capture" alt="blablabook" width="40%">
-<img src="/images/book_page.png" class="book_capture" alt="blablabook" width="50%">
+<img src="./images/Mobile_menu.png" class="blabla_capture" alt="blablabook" width="40%">
+<img src="./images/Mobile-discovery.png" class="blabla_capture" alt="blablabook" width="40%">
+<img src="./images/book_page.png" class="book_capture" alt="blablabook" width="50%">
 </div>
 </section>
 </main>

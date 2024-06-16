@@ -6,43 +6,43 @@
         <section class="skills_section">
             <ul class="skills_list">
                 <div class="skill_item">
-                <li class="tool"><img src="/images/htmlcss-logo.svg" alt="HTML/CSS" width="52px">HTML/CSS</li>
+                <li class="tool"><img src="./images/htmlcss-logo.svg" alt="HTML/CSS" width="52px">HTML/CSS</li>
                 <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
                 </div>
                 <div class="skill_item">
-                <li class="tool"><img src="/images/JavaScript-logo.png" alt="Javascript" width="53px">Javascript</li>
+                <li class="tool"><img src="./images/JavaScript-logo.png" alt="Javascript" width="53px">Javascript</li>
                 <li class="rate"><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
                 </div>
                 <div class="skill_item">
-                <li class="tool"><img src="/images/svelte-bg.png" alt="Svelte" width="55px">Svelte</li>
+                <li class="tool"><img src="./images/svelte-bg.png" alt="Svelte" width="55px">Svelte</li>
                 <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
                 </div>
                 <div class="skill_item">
-                <li class="tool"><img src="/images/mysql-mariadb.png" alt="MariaDB/MySQL" width="45px">MariaDB/MySQL</li>
+                <li class="tool"><img src="./images/mysql-mariadb.png" alt="MariaDB/MySQL" width="45px">MariaDB/MySQL</li>
                 <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
                 </div>
                 <div class="skill_item">
-                <li class="tool"><img src="/images/PHP-logo.png" alt="PHP" width="45px">PHP</li>
+                <li class="tool"><img src="./images/PHP-logo.png" alt="PHP" width="45px">PHP</li>
                 <li class="rate"><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
                 </div>
                 <div class="skill_item">
-                <li class="tool"><img src="/images/Directus_Logo.png" alt="Directus" width="45px">Directus</li>
+                <li class="tool"><img src="./images/Directus_Logo.png" alt="Directus" width="45px">Directus</li>
                 <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
                 </div>
                 <div class="skill_item">
-                <li class="tool"><img src="/images/github.png" alt="" width="45px">Github</li>
+                <li class="tool"><img src="./images/github.png" alt="" width="45px">Github</li>
                 <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
                 </div>
                 <div class="skill_item">
-                <li class="tool"><img src="/images/asana-logo.svg" alt="Asana" width="40px">Asana</li>
+                <li class="tool"><img src="./images/asana-logo.svg" alt="Asana" width="40px">Asana</li>
                 <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
                 </div>
                 <div class="skill_item">
-                <li class="tool"><img src="/images/figma-logo.png" alt="Figma" width="50px">Figma</li>
+                <li class="tool"><img src="./images/figma-logo.png" alt="Figma" width="50px">Figma</li>
                 <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
                 </div>
                 <div class="skill_item">
-                <li class="tool"><img src="/images/canva_logo.png" alt="Figma" width="40px">Canva</li>
+                <li class="tool"><img src="./images/canva_logo.png" alt="Figma" width="40px">Canva</li>
                 <li class="rate"><p class="blue_circle"></p><p class="blue_circle"></p><p class="blue_circle"></p><p class="dark_circle"></p><p class="dark_circle"></p></li>
                 </div>
             </ul>
@@ -51,8 +51,8 @@
         <section class="rsp_section">
            <hr width="30%" color="white">
             <div class="rsp">
-                <a href="https://www.linkedin.com/in/jessica-jamain/" target="blank"><img src="/images/linkedin.png" class="linkedin_logo" alt="linkedin"></a>
-                <a href="https://github.com/Jess2039" target="blank"><img src="/images/github.png" class="github_logo" alt="github"></a>
+                <a href="https://www.linkedin.com/in/jessica-jamain/" target="blank"><img src="./images/linkedin.png" class="linkedin_logo" alt="linkedin"></a>
+                <a href="https://github.com/Jess2039" target="blank"><img src="./images/github.png" class="github_logo" alt="github"></a>
             </div>
             <hr width="30%" color="white">
         </section>
