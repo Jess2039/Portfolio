@@ -47,7 +47,7 @@
                 </div>
             </ul>
         </section>
-        <a href="/CV-Jessica.pdf" target="blank" class="download_cv"><span>Télécharger CV</span></a>
+        <a href="./CV-Jessica.pdf" target="blank" class="download_cv"><span>Télécharger CV</span></a>
         <section class="rsp_section">
            <hr width="30%" color="white">
             <div class="rsp">
