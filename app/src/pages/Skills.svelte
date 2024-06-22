@@ -64,10 +64,8 @@
         display: flex;
         flex-direction: column;
     }
-     .line_white {
-        border-bottom: solid 2px var(--white);
-        border-right: none;
-    } 
+ /* rsp bar */
+
     .rsp_section {
         display: flex;
         align-items: center;
@@ -76,9 +74,10 @@
     .rsp {
         display: flex;
         flex-direction: row;
+        margin: 1%;
     }
     .rsp a {
-        margin-right: 20px;
+        margin-right: 10%;
     }
     .linkedin_logo {
         width: 30px;
@@ -215,6 +214,9 @@ span:hover{
     }
     .github_logo {
         width: 45px;
+    }
+    .rsp {
+        
     }
 }
 

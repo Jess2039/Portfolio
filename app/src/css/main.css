@@ -17,11 +17,11 @@ html {
     padding: 0;
     font-family: "lexend";
     color: var(--white);
-    background-image: url(/moon_background.jpg);
+    background-image: url(/file.jpg);
     background-color: var(--black_background);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 110% 25%;   
+    background-position: 30% 80%;
+    background-size: contain;   
 }
 header {
     height: 10px;
@@ -71,10 +71,6 @@ header {
         /* ******* Desktop ******* */
 @media screen and (min-width: 1024px) {
 
-
-    html {
-        background-size: 100% 85%;
-    }
 
     .home-presentation {
         margin-top: 250px;
