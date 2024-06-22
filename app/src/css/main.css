@@ -3,7 +3,7 @@
     --black: #343434;
     --bluemoon:#91CDEC;
     --white: #FFFFFF;
-    --black_background: #000000;
+    --black_background: #010101;
 }
 
      /* ******* Mobile ******* */
@@ -17,11 +17,11 @@ html {
     padding: 0;
     font-family: "lexend";
     color: var(--white);
-    background-image: url(/file.jpg);
+    background-image: url(/moon_backgroundb.jpg);
     background-color: var(--black_background);
     background-repeat: no-repeat;
-    background-position: 30% 80%;
-    background-size: contain;   
+    background-position: 160% 45%;
+    background-size: 60%;   
 }
 header {
     height: 10px;
@@ -71,7 +71,10 @@ header {
         /* ******* Desktop ******* */
 @media screen and (min-width: 1024px) {
 
-
+    html {
+        background-position: 85% 70%;
+        background-size: 30%;  
+    }
     .home-presentation {
         margin-top: 250px;
         margin-left: 450px;
