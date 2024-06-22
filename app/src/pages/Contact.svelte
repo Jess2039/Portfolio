@@ -24,13 +24,14 @@
         margin-left: 30%;
     }
     .border_white {
-        margin-left: 20%;
+        margin-left: 70%;
     }
     .contact_section {
         display: flex;
     }
     .contact_div {
-        margin-top: 480px;
+        margin-top: 100%;
+        margin-left: 20%;
     }
     .contact_me {
         height:50px;
@@ -88,7 +89,7 @@ span:hover{
           /* ******* Desktop ******* */
 @media screen and (min-width: 1024px) { 
     .rsp_section {
-        margin-left: 260px;
+        margin-left: 30%;
         width: 800px;
     }
     .contact_section {
@@ -97,12 +98,12 @@ span:hover{
     .contact_div {
         margin-left: 80%;
     }
-    .rsp {
+   /*  .rsp {
         margin-left: 25%;
-    }
-    .border_white {
-        margin-left: 60px;
-    }
+    } */
+   /*  .border_white {
+        margin-left: 25%;
+    } */
     .contact_me {
         width: 200px;
         height: 75px;

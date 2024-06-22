@@ -8,14 +8,17 @@
     <section class="project_section">
         <div class="project_div">
             <h2>Blablabook</h2>
-            <img src="./images/Home_blablabook.png" alt="homepage blablabook" width="55%">
+            <img src="./images/Home_blablabook.png" alt="homepage blablabook" class="blabla_image" width="55%">
+            <div class="presentation_project">
             <p>Projet de fin d'études, Blablabook est une plateforme en ligne destinée aux amateurs-rices de suivre leurs lectures, de découvrir de nouveaux livres et de partager leurs opinions avec d'autres lecteurs-rices.</p>
+            </div>
             <a href="/project/1" target="blank" use:link><button>Voir plus</button></a>
         </div>
     </section>
 </main>
 
 <style>
+    
      main {
         margin: 60px 30px;
         width: 80%;
@@ -36,10 +39,10 @@
         margin-top: 40px;
     }
     p {
-        margin: 50px 0px;
+        margin: 20% 0%;
     }
     img {
-        margin-top: 50px;
+        margin-top: 20%;
     }
     button {
         width: 100px;
@@ -60,11 +63,32 @@
 
                 /* ******* Desktop ******* */
 @media screen and (min-width: 1024px) { 
+
+    h1 {
+        font-size : 55px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+   .blabla_image {
+    margin-top: 10%;
+   }
     main {
         margin:8% 10%;
     }
+    .presentation_project {
+        width: 60%;
+        margin-left: 5%;
+        text-align: left;
+    }
     p {
-        font-size: 20px;
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 30px;
+        width: 130px;
     }
 }
 

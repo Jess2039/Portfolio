@@ -69,12 +69,12 @@
     .rsp_section {
         display: flex;
         align-items: center;
-        margin: 20px 0px;
     }
     .rsp {
         display: flex;
         flex-direction: row;
-        margin: 1%;
+        align-items: center;
+        margin-right: 20%;
     }
     .rsp a {
         margin-right: 10%;
@@ -85,6 +85,9 @@
     .github_logo {
         width: 35px;
     }
+
+    /* Skills sectio */
+
     li {
         list-style-type:none;  
         margin: 15px 25px;
@@ -112,6 +115,8 @@
         height: 15px;
         border-radius: 25px;  
     }
+
+    
     .download_cv {
      
         height:20px;
@@ -166,6 +171,8 @@ span:hover{
       /* ******* Desktop ******* */
 @media screen and (min-width: 1024px) {
     
+    /*Skills section */
+
     .skill_item {
         display: flex;
     }
@@ -204,20 +211,36 @@ span:hover{
     .skills_list {
         margin-left: 100px;
     }
+
     .download_cv {
         margin-left: 50%;
         height: 20px;
         padding-top: 5px;
     }
+
+    /*RSP_section*/
+    .download_cv {
+        margin: 2% 25%;
+    }
+
+    .rsp{
+        align-items: center;
+    }
+    .rsp a {
+        align-self: stretch;
+        padding: 10% 20%;
+    }
     .linkedin_logo {
-        width: 35px;
-    }
-    .github_logo {
-        width: 45px;
-    }
-    .rsp {
+        width: 55px;
+
         
     }
+    .github_logo {
+        width: 60px;
+        margin-left: 100%;
+      
+    }
+   
 }
 
 </style>
