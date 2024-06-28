@@ -1,4 +1,9 @@
-
+<script>
+    import { MetaTags } from 'svelte-meta-tags';
+</script>
+<MetaTags
+    title="Contact, Jessica JAMAIN"
+    description="Contact, Jessica JAMAIN, Développeur, Intégrateur web" />
 
 <main>
     <div class="home-presentation">

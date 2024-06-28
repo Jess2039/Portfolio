@@ -1,3 +1,9 @@
+<script>
+    import { MetaTags } from 'svelte-meta-tags';
+</script>
+<MetaTags
+title="Portfolio, Jessica JAMAIN"
+description="Portfolio, Jessica JAMAIN, Développeur, Intégrateur web, Projet Svelte, Directus" />
 <main>
 <h1>Projet Blablabook</h1>
 <div class="stack_div">

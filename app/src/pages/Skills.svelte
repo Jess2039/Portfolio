@@ -1,3 +1,9 @@
+<script>
+     import { MetaTags } from 'svelte-meta-tags';
+</script>
+<MetaTags
+    title="Compétences, Jessica JAMAIN"
+    description="Compétences, Développeur, Intégrateur web, HTML, CSS, Svelte, Directus, Javascript, Figma" />
 <main>
     <div class="home-presentation">
         <h1>Compétences</h1>

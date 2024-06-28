@@ -1,7 +1,10 @@
 <script>
     import {link} from 'svelte-spa-router';
+    import { MetaTags } from 'svelte-meta-tags';
     </script>
-
+<MetaTags
+title="Portfolio, Jessica JAMAIN"
+description="Portfolio, Jessica JAMAIN, Développeur, Intégrateur web, Projets" />
 <main>
 
     <h1>Portfolio</h1>
